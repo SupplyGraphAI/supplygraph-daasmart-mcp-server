@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "supplygraph": {
+      "url": "https://mcp.daasmart.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${env:SUPPLYGRAPH_API_KEY}"
+      }
+    }
+  }
+}
