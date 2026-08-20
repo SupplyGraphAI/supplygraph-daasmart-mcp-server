@@ -17,10 +17,9 @@ Transport: MCP Streamable HTTP.
 
 ### 1. Get an API key
 
-1. Create a SupplyGraph.AI account at [supplygraph.ai](https://www.supplygraph.ai).
-2. Open the [Console](https://supplygraph.ai/zk_chat_os/dashboard/dashboard.html).
-3. Go to **Developer Settings → A2A/MCP Keys** and click **Create New Key**.
-4. Copy the key and keep it private. Use it as `Authorization: Bearer <api_key>`.
+1. Open the [Console](https://www.daasmart.com/zk_chat_os/dashboard/dashboard.html). If you are not signed in, you will be redirected to the login page. New users can register there.
+2. After you sign in, you land on the Console. Open **A2A / MCP** and click **Create Production Key** or **Create Sandbox Key**.
+3. Copy the key and keep it private. Use it as `Authorization: Bearer <api_key>`.
 
 The same key works for MCP, A2A, and the Agent API.  
 Sandbox keys (no credit consumption) are also created in that Console page.  
